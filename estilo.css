@@ -2,15 +2,15 @@ body{
 	background:url(imagens/background.jpg); /*inserção da imagem de fundo em todo o site*/
 	color:#868686; /*cor padrão para todas as fontes*/
 	font-family: "Open Sans", Helvetica, sans-serif, arial; /*definição da fonte geral incorporada do Google Fonts*/
-	font-size: 18px; /*tamanho da fonte*/
+	font-size: 1.125em; /*18px; tamanho da fonte*/
 	font-weight: 300; /*indica que a fonte está configurada como Open Sans Light*/
-	line-height: 22px;/*altura da linha*/
+	line-height: 1.22222222em; /*22px;/*altura da linha*/
 	text-align: left; /*alinhando o texto à esquerda*/
 	text-shadow:1px 1px 0px #fff; /*sombreamento para as fontes do site*/
 }
 .center{
 	margin: 0 auto; /*centralizando o conteúdo no navegador*/
-	width: 1200px; /*largura do layout*/		
+	width: 100%; /*1200px; largura do layout*/		
 }
 /*.clearfix usado para adicionar um espaço vazio antes e depois dos elementos
   evitando que os floats se aglomerem.
@@ -33,13 +33,13 @@ h1, h2{
 	color:#FE9380;
 	font-size: 60px;
 	font-weight: 800;
-	letter-spacing: -3px; /*espaçamento entre as letras*/
-	line-height: 60px;
+	letter-spacing: -3px;/* espaçamento entre as letras*/
+	line-height: 60px ;
 }
 h3{
-	font-size: 32px;
+	font-size:32px;
 	font-weight: 300;
-	letter-spacing: -2px; /*espaçamento entre as letras*/
+	letter-spacing: -2px;/* espaçamento entre as letras*/
 	line-height: 38px;
 }
 p{
@@ -102,12 +102,13 @@ nav ul{
 		}
 nav a:link, nav a:visited{
 	color:#999;
-	font-size: 22px;
+	font-size: 1,2222222em;
 	font-weight: 300;
 	letter-spacing: -2px; /*espaçamento entre as letras*/
 	line-height: 26px;
 	display:inline-block;
 }
+
 nav a.ativo, nav a:hover{
 	color:#FE9380; /*indica a página ativa e o link:hover*/
 }
@@ -119,17 +120,17 @@ Seção .CHAMADA ========================================
 .chamada{
 	height:290px;
 	text-align:center;
-	width:1200px;
+	width:100%;
 }
 	h2 span{
-		font-size: 60px;
+		font-size: 1em;/*60px*/;
 		font-weight: 300;
-		letter-spacing: -2px;
-		line-height: 60px;
+		letter-spacing: -0.0333333em;/*-2px*/;
+		line-height: 1em;/*60px*/;
 	}
 	.chamada h3 {
 		margin: 0 auto;
-		width:900px;
+		width:0.03555555em/*900px*/;
 	}
 	
 /*----------------------------------------------------------
@@ -139,13 +140,14 @@ Seção .CONTAINER - Conteúdo com 3 colunas =============
 	background-color:#FE9481;
 	height: 417px;
 	padding:30px;
-	max-width:1200px;
+	max-width:100%;
+	width:100%;
 }
 .desktop, .tablet, .mobile{
 	float:left;
 	position:relative;
 	text-align:center;
-	width:360px;
+	width:30%/*360px*/;
 }
 .desktop, .tablet{
 	margin-right: 30px;
@@ -174,9 +176,9 @@ formatação do texto
 */
 .container h3{
 	color:#fff;
-	font-size: 32px;
+	font-size: 1.77777778em;
 	font-weight: 300;
-	letter-spacing: -2px;
+	letter-spacing: -0.11111111em;
 	margin-bottom: 30px;
 	text-shadow:none;
 }
